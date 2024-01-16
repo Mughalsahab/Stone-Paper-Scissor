@@ -4,9 +4,9 @@ let player1Score = 1;
 let player2Score = 1;
 let player1Choice;
 let player2Choice;
-let player1WinAudio = new Audio("/Audios/player1 win.m4a")
-let player2WinAudio = new Audio("/Audios/player2 win.m4a")
-let drawAudio = new Audio("/Audios/draw.m4a");
+let player1WinAudio = new Audio("player1 win.m4a")
+let player2WinAudio = new Audio("player2 win.m4a")
+let drawAudio = new Audio("draw.m4a");
 let p1Name = document.querySelector("#player1Name");
 let p2Name = document.querySelector("#player2Name");
 let player1InHead = document.querySelector("#player1InHead");
