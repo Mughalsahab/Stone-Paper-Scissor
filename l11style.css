@@ -1,0 +1,289 @@
+body {
+    background-color: #091828;
+}
+a {
+    text-decoration: none;
+    width: 60%;
+}
+#animationDiv {
+    transition: all 2s ease-in-out;
+    scale: 0;
+}
+.h1 {
+    background-color: #0A2D52;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -6px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#moveCounter {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    left: 41vw;
+    top: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#text {
+    display: inline-block;
+}
+#counter {
+    display: inline-block;
+}
+.choices {
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images {
+    border-radius: 50%;
+    width: 230px;
+    border: #091828 8px solid;
+}
+.images:active {
+    scale: 0.97;
+}
+
+#counters {
+    font-size: 35px;
+    display: inline-block;
+    font-weight: 800;
+    font-family: 'a_FuturaRound';
+    color: #091828;
+    position: relative;
+    top: 50px;
+    left: -10px;
+}
+
+#userCounter {
+    position: relative;
+    color: white;
+    top: 70px;
+    left: 35vw;
+}
+
+#user {
+    position: relative;
+    color: white;
+    top: 70px;
+    left: 34vw;
+}
+
+#compCounter {
+    position: relative;
+    color: white;
+    top: 28px;
+    left: 65vw;
+}
+#vs {
+    position: relative;
+    color: white;
+    top: 25px;
+    left: 48vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#comp {
+    position: relative;
+    color: white;
+    top: -15px;
+    left: 61vw;
+}
+
+#scoreBoard {
+    text-align: center;
+    background-color: #091828;
+    color: white;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 700;
+    height: 50px;
+    padding-top: 13px;
+    display: inline-block;
+    position: relative;
+    top: 140px;
+    left: 5.5vw;
+    border-radius: 10px;
+    font-family: 'Century Gothic';
+}
+
+#board {
+    text-align: center;
+    color: white;
+    width: 300px;
+    font-family: 'Algerian';
+    font-weight: 550;
+    font-size: 40px;
+    height: 50px;
+    padding-top: 13px;
+    display: inline-block;
+    position: relative;
+    top: -120px;
+    left: 28vw;
+    border-radius: 10px;
+}
+#comeBack {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+#stone {
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    top: 20px;
+}
+#paper {
+    position: relative;
+    display: inline-block;
+    left: 475px;
+    top: 20px;
+}
+#scissor {
+    position: relative;
+    display: inline-block;
+    left: 740px;
+    top: 20px;
+}
+#stonee:hover {
+    border: 8px #bc3166 solid;
+}
+#papper:hover {
+    border: 8px #7e2da2 solid;
+}
+#scisor:hover {
+    border: 8px #2e5fc4 solid;
+}
+#components {
+    color: white;
+    font-family: 'Showcard Gothic Regular';
+    font-size: 35px;
+    font-weight: 400;
+}
+#stone {
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    top: 20px;
+}
+#paper {
+    position: relative;
+    display: inline-block;
+    left: 475px;
+    top: 20px;
+}
+#scissor {
+    position: relative;
+    display: inline-block;
+    left: 740px;
+    top: 20px;
+}
+@media (max-width : 450px ) {
+    #h1 {
+        margin-top: 10px;
+    }
+    .h1 {
+        font-size: larger;
+        width: 101vw;
+        position: absolute;
+        left: 0;
+    }
+
+    #optionBox {
+        position: absolute;
+        top: 150px;
+        height: 650px;
+        width: 350px;
+        left: 33px;
+        box-shadow: 0px 0px 7px 3px #2072be;
+    }
+    #mainMenu {
+        font-size: 30px;
+    }
+    #arcade {
+        font-size: 35px;
+        width: 70%;
+        position: relative;
+        left: -23px;
+        height: 50px;
+    }
+    #multiPlayer {
+        font-size: 35px;
+        width: 70%;
+        position: relative;
+        left: -23px;
+        height: 50px;
+    }
+    #solo {
+        font-size: 35px;
+        width: 70%;
+        position: relative;
+        left: -23px;
+        height: 50px;
+    }
+    #share {
+        position: relative;
+        left: -30px;
+        width: 110px;
+        height: 50px;
+        top: -23px;
+    }
+    #sharePic {
+        width: 50px;
+    }
+    #reviewRating {
+        position: relative;
+        top: -83px;
+        left: 110px;
+        width: 110px;
+        margin-top: 3px;
+        height: 50px;
+    }
+    #reviewPic {
+        width: 65px;
+    }
+    #quit {
+        position: relative;
+        left: 50px;
+        top: -70px;
+        width: 100px;
+        height: 50px;
+    }
+    #quitPic {
+        margin-top: 3px;
+        width: 35px;
+    }
+    #collectStars {
+        position: absolute;
+        top: 110px;
+        font-size: 27px;
+    }
+    #stars {
+        position: absolute;
+        left: 100px;
+        top: 108px;
+        width: 30px;
+        font-size: 27px;
+    }
+    #collectDiamonds {
+        position: absolute;
+        top: 110px;
+        left: 305px;
+        font-size: 27px;
+    }
+    #Diamonds {
+        position: absolute;
+        left: 265px;
+        top: 108px;
+        width: 30px;
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,257 @@
+#bodyDiv {
+    scale: 0.7px;
+}
+body {
+    background-color: #091828;
+}
+a {
+    text-decoration: none;
+    width: 60%;
+}
+.h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+    background-color: #0A2D52;
+    color: white;
+    width: 101%;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -6px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.images {
+    border-radius: 50%;
+    width: 230px;
+    border: #091828 8px solid;
+}
+.images:active {
+    transform: scale(0.97);
+}
+#player1 {
+    position: relative;
+    scale: 0.95;
+    top: 50px;
+    display: inline-block;
+}
+#player2 {
+    position: relative;
+    left: 59vw;
+    bottom: -50px;
+    scale: 0.95;
+    display: inline-block;
+}
+#counters {
+    font-size: 35px;
+    display: inline-block;
+    font-weight: 800;
+    font-family: 'a_FuturaRound';
+    color: white;
+    position: relative;
+}
+#scoreBoard {
+    text-align: center;
+    background-color: #091828;
+    color: white;
+    width: 300px;
+    font-size: 23px;
+    font-weight: 700;
+    height: 50px;
+    padding-top: 13px;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: -27vw;
+    border-radius: 10px;
+    font-family: 'Century Gothic';
+}
+
+#board {
+    text-align: center;
+    color: white;
+    width: 300px;
+    font-family: 'Algerian';
+    font-weight: 550;
+    font-size: 40px;
+    height: 50px;
+    padding-top: 13px;
+    display: inline-block;
+    position: relative;
+    top: -500px;
+    left: -4vw;
+    border-radius: 10px;
+}
+#player1Counter {
+    position: relative;
+    bottom: 280px;
+    left: 30px;
+}
+#player2Counter {
+    position: relative;
+    bottom: 324px;
+    left: 200px;
+}
+#player1Name {
+    position: absolute;
+    top: -650px;
+    left: -435px;
+}
+#player2Name {
+    position: absolute;
+    top: -650px;
+    right: -670px;
+}
+#vs {
+    color: white;
+    position: absolute;
+    top: -650px;
+    left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#comeBack {
+    position: absolute;
+    top: -10px;
+    scale: 0.7;
+    left: -8px;
+}
+#stone:hover {
+    border: 8px #bc3166 solid;
+}
+#paper:hover {
+    border: 8px #7e2da2 solid;
+}
+#scissor:hover {
+    border: 8px #2e5fc4 solid;
+}
+#_stone:hover {
+    border: 8px #bc3166 solid;
+}
+#_paper:hover {
+    border: 8px #7e2da2 solid;
+}
+#_scissor:hover {
+    border: 8px #2e5fc4 solid;
+}
+#vsInHead {
+    margin-top: -40px;
+    margin-left: -55px;
+}
+#h1 {
+    margin-top: 8px;
+}
+#player1InHead {
+    position: relative;
+    margin-top: -8px;
+    right: 300px;
+}
+#player2InHead {
+    position: relative;
+    left: 250px;
+    top: -38px;
+}
+#back {
+    width: 65px;
+    margin-top: 10px;
+}
+@media (max-width : 450px) {
+    .h1 {
+        font-size: larger;
+        width: 101.5vw;
+        position: absolute;
+        left: 0;
+    }
+    #h1 {
+        margin-top: 8px;
+    }
+    #player1InHead {
+        position: relative;
+        right: 100px;
+        top: 8px;
+    }
+    #vsInHead {
+        margin-top: -17px;
+        margin-left: 7px;
+    }
+    #player2InHead {
+        position: relative;
+        left: 110px;
+        top: -25px;
+    }
+    #back {
+        width: 50px;
+        margin-top: 20px;
+    }
+    #player1Name {
+        position: absolute;
+        top: 100px;
+        width: 125px;
+        left: 160px;
+        font-size: 20px;
+    }
+    #player2Name {
+        position: absolute;
+        top: 710px;
+        width: 125px;
+        left: 160px;
+        font-size: 20px;
+    }
+    #player2Counter {
+        position: relative;
+        top: 678px;
+        left: 245px;
+        font-size: 23px;
+    }
+    #player1Counter {
+        font-size: 23px;
+        position: relative;
+        bottom: -98px;
+        left: 250px;
+    }
+    .images {
+        width: 100px;
+    }
+    #player1 {
+        display: flex;
+        width: 101.5vw;
+        left: -15px;
+        top: 120px;
+        justify-content: space-evenly;
+    }
+    #player2 {
+        display: flex;
+        width: 101.5vw;
+        left: -15px;
+        top: 700px;
+        justify-content: space-evenly;
+    }
+    #board {
+        position: absolute;
+        top: 42vh;
+        font-size: large;
+        left: 200px;
+        rotate: 90deg;
+    }
+    #scoreBoard {
+        position: absolute;
+        top: 42.5vh;
+        font-size: large;
+        left: 50px;
+        rotate: 90deg;
+    }
+    .player2Turn {
+        left: 50px;
+        width: 50px;
+        top: 40vh;
+    }
+    .scoreBoardNewClass {
+        left: 50px;
+        top: 40vh;
+        height: 15px;
+        width: 65px;
+        font-size: smaller;
+        top: -15px;
+    }
+}

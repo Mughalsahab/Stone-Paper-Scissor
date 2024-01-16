@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo</title>
+    <link rel="stylesheet" href="multiStyle.css">
+</head>
+
+<body>
+    <div id="bodyDiv">
+        <h1 class="h1">
+            <div id="h1">
+                <div id="player1InHead">
+                    Player 1
+                </div>
+                <div id="vsInHead">
+                     VS 
+                </div>
+                <div id="player2InHead">
+                    Player 2
+                </div>
+            </div>
+        </h1>
+        <div class="choices" id="player1">
+            <div class="choice1" id="Stone">
+                <img src="stone.png" alt="" class="images" id="stone">
+            </div>
+            <div class="choice1" id="Paper">
+                <img src="paper.png" alt="" class="images" id="paper">
+            </div>
+            <div class="choice1" id="Scissor">
+                <img src="scissor.png" alt="" class="images" id="scissor">
+            </div>
+        </div>
+        <div id="player2" style="margin-top: -250px;">
+            <div class="choice2" id="Stone">
+                <img src="stone.png" alt="" class="images" id="_stone">
+            </div>
+            <div class="choice2" id="Paper">
+                <img src="paper.png" alt="" class="images" id="_paper">
+            </div>
+            <div class="choice2" id="Scissor">
+                <img src="scissor.png" alt="" class="images" id="_scissor">
+            </div>
+        </div>
+        <div id="counters">
+            <div id="player1Counter"> 0</div>
+            <div id="player2Counter"> 0</div>
+            <div id="player1Name">Player 1</div>
+            <div id="vs">VS</div>
+            <div id="player2Name">Player 2</div>
+        </div>
+        <div id="board">Score Board</div>
+        <div id="scoreBoard">Player 1 Turn</div>
+        <div id="comeBack">
+            <a href="index.html"><img src="back.png" alt="Back" id="back"></a>
+        </div>
+    </div>
+    <script src="multiScript.js"></script>
+</body>
+
+</html>
