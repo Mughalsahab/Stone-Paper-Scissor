@@ -1,5 +1,5 @@
 let quit = document.querySelector("#quit");
 quit.addEventListener("click", () => {
-    location.reload();
-    close();
+    window.location.reload();
+    window.close();
 });
