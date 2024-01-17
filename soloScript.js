@@ -1,6 +1,5 @@
 let userScore = 1;
 let compScore = 1;
-let diamonds  = 1;
 let diamondCounter = document.querySelector("#counterOfDiamond");
 const choices = document.querySelectorAll(".choice");
 const generateCompChoice = () => {
@@ -20,8 +19,6 @@ const playGame = (userChoice, generateCompChoice) => {
         document.querySelector("#scoreBoard").style.width = "600px";
         document.querySelector("#scoreBoard").style.left = "-6vw";
         document.querySelector("#userCounter").innerText = userScore;
-        diamondCounter.innerText = diamonds;
-        diamonds++;
         userScore++;
     } else if (userChoice === "Stone" && generateCompChoice === "Paper") {
         document.querySelector("#scoreBoard").innerText = "You Lose 😔. Comp's " + generateCompChoice + " grasp Your " + userChoice;
@@ -36,8 +33,6 @@ const playGame = (userChoice, generateCompChoice) => {
         document.querySelector("#scoreBoard").style.width = "600px";
         document.querySelector("#scoreBoard").style.left = "-6vw";
         document.querySelector("#userCounter").innerText = userScore;
-        diamondCounter.innerText = diamonds;
-        diamonds++;
         userScore++;
     } else if (userChoice === "Paper" && generateCompChoice === "Scissor") {
         document.querySelector("#scoreBoard").innerText = "You Lose 😔. Comp's " + generateCompChoice + " cuts Your " + userChoice;
@@ -59,8 +54,6 @@ const playGame = (userChoice, generateCompChoice) => {
         document.querySelector("#scoreBoard").style.width = "600px";
         document.querySelector("#scoreBoard").style.left = "-6vw";
         document.querySelector("#userCounter").innerText = userScore;
-        diamondCounter.innerText = diamonds;
-        diamonds++;
         userScore++;
     }
 };
